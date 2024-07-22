@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family:"poppins",sans-serif ;
+}
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to left top,#031A9A,#8B53FF);
+}
+.card.image-box{
+    height:200px;
+}
+.card.image-box carr-1{
+    height:100%;
+}
+.carr-1{
+    background-image: url("C:\Users\CIMBU\Downloads\img2.jpg");
+    border:4px solid #4070F4 ;
+}
+.carr-2{
+    background-image: url("C:\Users\CIMBU\Downloads\img3.jpg");
+}
+.carr-3{
+    background-image: url("C:\Users\CIMBU\Downloads\img1.jpg");
+}
+.carr-4{
+    background-image: url("C:\Users\CIMBU\Downloads\img2.jpg");
+    border:4px solid #4070F4 ;
+}
+.carr-5{
+    background-image: url("C:\Users\CIMBU\Downloads\img3.jpg");
+}
+.carr-6{
+    background-image: url("C:\Users\CIMBU\Downloads\img1.jpg");
+}
+/* Card.css */
+.container {
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .card {
+    flex: 0 0 100%;
+    box-sizing: border-box;
+    margin-right: 15px;
+    /* Adjust margin as needed */
+  }
+  
+  /* Additional styling for your cards */
+  

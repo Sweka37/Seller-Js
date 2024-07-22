@@ -1,0 +1,40 @@
+.popup1{
+    background-image: linear-gradient(rgb(95, 187, 221),beige);
+    background-size: cover;
+    background-repeat: no-repeat;
+      gap:initial;
+      position: absolute;
+      margin-top: 10%;
+      top:5%;
+      left: 30%;
+      right: 30%;
+      width: 40%;
+      padding: 20px;
+      box-shadow: 0px 0px 20px 10px rgba(0,0,0,0,15);
+      border-radius:50px
+  }
+  .input {
+  width: 25%;
+  height: 50px;
+  border-radius: 5px;
+  
+  }
+  
+
+  .submit-button{
+      background-color:#000000;
+      color: white;
+      padding: 10px 20px;
+      border: 2px solid black;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+    }
+    .submit-button:hover {
+      background-color:#494b4e;
+    }
+
+    .feedback
+    {
+       background-color: #000000;
+    }
